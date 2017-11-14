@@ -15,9 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".controllers.CountActivity"
+        <activity
+            android:name=".controllers.CountActivity"
             android:label="@string/count_activity_title"
             android:parentActivityName=".controllers.MainActivity" />
+        <activity android:name=".controllers.AboutActivity" />
+        <activity android:name=".controllers.SettingsActivity"/>
     </application>
 
 </manifest>
