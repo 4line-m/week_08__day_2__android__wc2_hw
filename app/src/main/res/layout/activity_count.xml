@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.codeclan.example.wordcounter.controllers.CountActivity">
+    tools:context="com.codeclan.example.wordcounter.controllers.CountActivity"
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/counter"
@@ -16,6 +17,9 @@
         android:layout_marginTop="8dp"
         android:text="Hi"
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
